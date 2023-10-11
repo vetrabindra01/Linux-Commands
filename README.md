@@ -1,6 +1,5 @@
 # Linux-Commands
 
-
 1) Count no of line in .gz file on mac
    
 for i in *.gz; do echo ${i}; zcat < ${i} | wc -l ; done

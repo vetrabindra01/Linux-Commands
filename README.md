@@ -9,6 +9,8 @@ for i in *.gz; do echo ${i}; zcat < ${i} | wc -l ; done
 mv `cat list.txt` ../
 
 5) grep from two files
+   
 https://stackoverflow.com/questions/45625032/grep-lines-that-appear-partly-in-one-file-to-another
+
 grep -iFf id.txt file.txt
 
